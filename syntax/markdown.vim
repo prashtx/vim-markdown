@@ -151,7 +151,7 @@ hi def link markdownBoldItalicDelimiter   markdownBoldItalic
 hi def link markdownCodeDelimiter         Delimiter
 
 hi def link markdownEscape                Special
-hi def      markdownImplicitBreak         ctermbg=darkgreen guibg=lightgreen
+hi def link markdownImplicitBreak         Error
 hi def link markdownError                 Error
 
 let b:current_syntax = "markdown"
